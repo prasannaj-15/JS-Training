@@ -32,6 +32,37 @@ console.log(allDiv);
     container.appendChild(head);
 }
 
+// Event listener
+
+
+// const button = document.getElementById("button1");
+
+// button.addEventListener("click", function() {
+//     console.log('Button clicked');
+// })
+
+
+// button.addEventListener("click", function() {
+//     console.log('Button pressed');
+// })
+
+
+let div2 = document.getElementById("div-2");
+
+div2.addEventListener("mouseover" , (e) =>{
+    console.log(e.clientX,e.clientY);
+})
+
+
+
+
+
+
+
+
+
+
+
 
 
 
